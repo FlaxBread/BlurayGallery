@@ -10,7 +10,6 @@ function slide(x)
 	if(imageCount > totalAmount){imageCount = 1;}
 	if(imageCount < 1){imageCount = totalAmount;} //Keeps the 
 	image.src = "images/CoverImage_"+ imageCount +".jpg";
-	clearInterval(1);
 }
 
 function autoSlide(){
@@ -21,6 +20,6 @@ function autoSlide(){
 	image.src = "images/CoverImage_"+ imageCount +".jpg";
 }
 
-window.setInterval(autoSlide,5000);
+window.setInterval(slide,5000,1);
 
 window.addEventListener("load", init, false);
