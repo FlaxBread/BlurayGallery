@@ -13,7 +13,7 @@ function slide(x)
 	for (var i = 1; i < 99999; i++){
         window.clearInterval(i);
 	}
-	window.setInterval(slide,5000,1);
+	window.setInterval(autoSlide,5000,1);
 }
 
 function autoSlide(){
