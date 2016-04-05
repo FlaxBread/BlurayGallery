@@ -1,1 +1,17 @@
 
+html
+{
+  text-align: center;
+}
+
+#leftHolder
+{
+  float: left;
+  margin-top: 125px;
+}
+
+#rightHolder
+{
+  float: right;
+  margin-top: 125px;
+}
