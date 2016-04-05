@@ -10,11 +10,8 @@ function slide(x)
 	if(imageCount > totalAmount){imageCount = 1;}
 	if(imageCount < 1){imageCount = totalAmount;} //Keeps the 
 	image.src = "images/CoverImage_"+ imageCount +".jpg";
-	var timer = setInterval(slide, 5000, 1);
-	clearInterval(timer);
-	console.log("Timer reset");
-	timer();
-	console.log("Timer started");
+	clearInterval(0);
+	setInterval(slide,5000,1);
 }
 
 
