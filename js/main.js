@@ -11,7 +11,4 @@ function slide(x)
 	if(imageCount < 1){imageCount = totalAmount;} //Keeps the 
 	image.src = "images/CoverImage_"+ imageCount +".jpg";
 }
-
-setInterval(slide(1), 5000);
-
 window.addEventListener("load", init, false);
