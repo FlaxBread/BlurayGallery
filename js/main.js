@@ -13,7 +13,7 @@ function slide(x)
 	var timer = setInterval(slide, 5000, 1);
 	clearInterval(timer);
 	console.log("Timer reset");
-	timer;
+	timer();
 	console.log("Timer started");
 }
 
