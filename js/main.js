@@ -3,7 +3,6 @@
 var imageCount = 1;
 var totalAmount = 4;
 var image = document.getElementById("mainSliderImage");
-var timer = setInterval(autoSlide, 5000);
 
 function slide(x) 
 {
@@ -11,7 +10,6 @@ function slide(x)
 	if(imageCount > totalAmount){imageCount = 1;}
 	if(imageCount < 1){imageCount = totalAmount;} //Keeps the 
 	image.src = "images/CoverImage_"+ imageCount +".jpg";
-	clearInterval(timer);
 }
 
 function autoSlide(){
