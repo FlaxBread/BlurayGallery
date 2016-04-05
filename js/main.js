@@ -20,6 +20,6 @@ function autoSlide(){
 	image.src = "images/CoverImage_"+ imageCount +".jpg";
 }
 
-setInterval(autoSlide(),5000);
+setInterval(autoSlide,5000);
 
 window.addEventListener("load", init, false);
