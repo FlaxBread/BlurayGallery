@@ -1,3 +1,0 @@
-# BlurayGallery
-
-Aidan's Files
