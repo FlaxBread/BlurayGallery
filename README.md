@@ -1,4 +1,0 @@
-# BlurayGallery
-
-Erin's Files
-
