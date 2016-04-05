@@ -12,13 +12,4 @@ function slide(x)
 	image.src = "images/CoverImage_"+ imageCount +".jpg";
 }
 
-function autoSlide(){
-	imageCount ++;
-	if(imageCount > totalAmount){
-		imageCount = 1;
-	}
-	
-	image.src = "images/CoverImage_"+ imageCount +".jpg";
-}
-
-window.setInterval(autoSlide,5000);
+window.setInterval(slide,5000, 1);
