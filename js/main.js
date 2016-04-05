@@ -21,5 +21,4 @@ function autoSlide(){
 	image.src = "images/CoverImage_"+ imageCount +".jpg";
 }
 
-window.addEventListener("load", init, false);
 window.setInterval(autoSlide,5000);
