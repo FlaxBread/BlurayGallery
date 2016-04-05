@@ -17,9 +17,9 @@ function autoSlide(){
 	if(imageCount > totalAmount){
 		imageCount = 1;
 	}
+	console.log(imageCount);
 	image.src = "images/CoverImage_"+ imageCount +".jpg";
 }
 
-window.setInterval(autoSlide,5000);
-
 window.addEventListener("load", init, false);
+window.setInterval(autoSlide,5000);
