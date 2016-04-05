@@ -15,5 +15,5 @@ function slide(x)
 }
 
 
-window.setTimeout(slide,5000, 1);
+window.setInterval(slide,5000, 1);
 window.addEventListener("load", init, false);
