@@ -12,4 +12,6 @@ function slide(x)
 	image.src = "images/CoverImage_"+ imageCount +".jpg";
 }
 
+
 window.setInterval(slide,5000, 1);
+window.addEventListener("load", init, false);
